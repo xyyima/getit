@@ -24,8 +24,8 @@
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
     "postinstall": "npm run lint:fix",
-    "release-mac": "node .electron-vue/build.js && electron-builder -m -p alawys",
-    "release-win": "node .electron-vue/build.js && electron-builder -w -p alawys"
+    "release-mac": "node .electron-vue/build.js && electron-builder -m -p always",
+    "release-win": "node .electron-vue/build.js && electron-builder -w -p always"
   },
   "build": {
     "productName": "getit",
