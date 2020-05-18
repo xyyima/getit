@@ -89,14 +89,13 @@
       >
       <v-btn
         icon
-        large
       >
         <v-avatar
           size="32px"
           item
         >
           <v-img
-            src="https://cdn.vuetifyjs.com/images/logos/logo.svg"
+            src="/static/logo.png"
             alt="Vuetify"
           /></v-avatar>
       </v-btn>
