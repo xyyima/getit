@@ -21,8 +21,9 @@ function createWindow () {
    */
   mainWindow = new BrowserWindow({
     height: 563,
-    useContentSize: true,
+    // useContentSize: true,
     width: 1000,
+    frame: false,
     webPreferences: {
       nodeIntegration: true,
       nodeIntegrationInWorker: true
