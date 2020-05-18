@@ -10,7 +10,7 @@
     "url": "git@github.com:xyyima/getit.git"
   },
   "description": "An app help you search and download resources from the internet.",
-  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "license": "Apache-2.0",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
